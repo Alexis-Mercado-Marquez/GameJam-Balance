@@ -6,8 +6,8 @@
   "name":"obj_enganche",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Columpio",
+    "path":"folders/Objetos/Columpio.yy",
   },
   "parentObjectId":null,
   "persistent":false,
