@@ -1,8 +1,8 @@
 /// @description La cámara sigue al jugador
 if _seguir_a != noone 
 	&& _seguir_a.x > 64 
-	&& _seguir_a.y > 64
 	&& _seguir_a.x < room_width - 64
+	&& _seguir_a.y > 64
 	&& _seguir_a.y < room_height - 64 
 {
 	_hacia_x = _seguir_a.x;
