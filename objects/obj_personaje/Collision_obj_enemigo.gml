@@ -3,7 +3,7 @@ if _colision == true {
 	_colision = false;
 	_sprite = spr_caido;
 
-	if x < other.x + 32{
+	if x < other.x + 32 {
 		_movim_x = -8;
 	}
 	else {

@@ -53,5 +53,11 @@ if _movim_y < 10 {
 	_movim_y += 1;
 }
 
+//Colisiones con objetos
+if place_meeting(x, y, obj_enemigo) {
+	var _enemigo = instance_nearest(x, y, obj_enemigo);
+	event_perform(ev_collision, _enemigo.object_index)
+}
+
 x += _movim_x;
 y += _movim_y;
