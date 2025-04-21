@@ -25,6 +25,7 @@
   },
   "name":"GameJam Balance",
   "resources":[
+    {"id":{"name":"obj_aro","path":"objects/obj_aro/obj_aro.yy",},},
     {"id":{"name":"obj_bomba","path":"objects/obj_bomba/obj_bomba.yy",},},
     {"id":{"name":"obj_camara","path":"objects/obj_camara/obj_camara.yy",},},
     {"id":{"name":"obj_cuerda","path":"objects/obj_cuerda/obj_cuerda.yy",},},

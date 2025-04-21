@@ -58,6 +58,14 @@ if place_meeting(x, y, obj_enemigo) {
 	var _enemigo = instance_nearest(x, y, obj_enemigo);
 	event_perform(ev_collision, _enemigo.object_index)
 }
+if place_meeting(x, y, obj_aro) {
+	var _aro = instance_nearest(x, y, obj_aro);
+	event_perform(ev_collision, _aro.object_index)
+}
+if place_meeting(x, y, obj_bomba) {
+	var _bomba = instance_nearest(x, y, obj_bomba);
+	event_perform(ev_collision, _bomba.object_index)
+}
 
 x += _movim_x;
 y += _movim_y;
