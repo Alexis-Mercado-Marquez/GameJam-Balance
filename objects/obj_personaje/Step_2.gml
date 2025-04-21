@@ -4,15 +4,16 @@ if _gano == true {
 }
 
 //Movimiento en x
-var _direccion = keyboard_check(vk_right) - keyboard_check(vk_left);
+/*var */_direccion = keyboard_check(vk_right) - keyboard_check(vk_left);
 
 if _direccion != 0 {
 	//Si aún no supera la velocidad máxima, la incrementa
-	if abs(_movim_x) < _rapidez_max {
-		_movim_x += _direccion * _aceleracion;
+	var _movim_final = _movim_x + (_direccion * _aceleracion);
+	
+	if abs(_movim_final) < _rapidez_max {
+		_movim_x = _movim_final;
 	}
 	else {
-		//Cada tic más cerca de caer
 		_movim_x = _rapidez_max * sign(_movim_x);
 	}
 	
@@ -25,20 +26,20 @@ if _direccion != 0 {
 	}
 }
 else {
+	//De forma pasiva, se inclina con el tiempo
 	if _angulo >= 0 {
-		//_movim_x += _vel_inclinacion;
 		_angulo += _vel_inclinacion;
 	}
 	else {
-		//_movim_x -= _vel_inclinacion;
 		_angulo -= _vel_inclinacion;
 	}
 	
+	//Desacelera (acerca su movimiento a cero)
 	if _movim_x > 0 {
-		_movim_x -= (_aceleracion * 0.75); //Acerca su movimiento a cero
+		_movim_x -= (_aceleracion * 0.75);
 	}
 	else if _movim_x < 0 { 
-		_movim_x += (_aceleracion * 0.75); //Acerca su movimiento a cero
+		_movim_x += (_aceleracion * 0.75);
 	}
 }
 
