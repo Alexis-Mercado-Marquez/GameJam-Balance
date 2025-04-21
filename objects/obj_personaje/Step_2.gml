@@ -1,6 +1,6 @@
 /// @description Controla al personaje
-if keyboard_check(vk_backspace) {
-	room_restart();
+if _gano == true {
+	exit; //Se salta el evento
 }
 
 //Movimiento en x

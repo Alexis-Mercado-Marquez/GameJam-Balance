@@ -6,6 +6,7 @@ _colision = true; //Indica si puede chocar con la cuerda
 _tics_max_rapidez = 0; //Cuantos frames lleva a máxima velocidad
 _limite_max_rapidez = 10; //Cuantos frames puede ir a máxima velocidad antes de caer
 _sprite = spr_personaje; //Sprite con el que se dibuja al personaje
+_gano = false; //Indica si ya se llego a la meta
 
 _angulo = 0; //Inclinación del personaje
 _vel_inclinacion = 0.5; //A que velocidad se inclina naturalmente (sin que pulse botones)
