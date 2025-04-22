@@ -67,6 +67,10 @@ if place_meeting(x, y, obj_bomba) {
 	var _bomba = instance_nearest(x, y, obj_bomba);
 	event_perform(ev_collision, _bomba.object_index)
 }
+if place_meeting(x, y, obj_botador) {
+	var _botador = instance_nearest(x, y, obj_botador);
+	event_perform(ev_collision, _botador.object_index)
+}
 
 x += _movim_x;
 y += _movim_y;
