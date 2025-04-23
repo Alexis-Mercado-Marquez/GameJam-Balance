@@ -1,4 +1,8 @@
 /// @description La cámara sigue al jugador
+if _pausado == true {
+	exit;
+}
+
 if _seguir_a != noone 
 	&& _seguir_a.x > 64 
 	&& _seguir_a.x < room_width - 64

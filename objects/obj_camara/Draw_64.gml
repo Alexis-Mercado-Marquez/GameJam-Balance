@@ -1,2 +1,7 @@
 /// @description Muestra la interfaz
-//draw_text(x, y - 800, string_concat("_movim_x: ", _seguir_a._movim_x));
+var _camara_x = view_get_xport(0);
+var _camara_y = view_get_yport(0);
+
+draw_set_valign(fa_middle);
+draw_set_halign(fa_center);
+draw_text(_camara_x + 224, _camara_y + 16, "Move <- ->  /  Jump [space]  /  Pause [enter]");

@@ -1,7 +1,7 @@
 {
   "$GMRoom":"v1",
   "%Name":"rm_nivel_1",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/rm_nivel_1/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
@@ -91,6 +91,7 @@
     {"name":"inst_7C3D475F","path":"rooms/rm_nivel_1/rm_nivel_1.yy",},
     {"name":"inst_79E7D910","path":"rooms/rm_nivel_1/rm_nivel_1.yy",},
     {"name":"inst_6BD36EC6","path":"rooms/rm_nivel_1/rm_nivel_1.yy",},
+    {"name":"inst_F1E19D2","path":"rooms/rm_nivel_1/rm_nivel_1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -180,6 +181,7 @@
         {"$GMRInstance":"v1","%Name":"inst_7C3D475F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7C3D475F","objectId":{"name":"obj_cuerda","path":"objects/obj_cuerda/obj_cuerda.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3008.0,"y":672.0,},
         {"$GMRInstance":"v1","%Name":"inst_79E7D910","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_79E7D910","objectId":{"name":"obj_cuerda","path":"objects/obj_cuerda/obj_cuerda.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3072.0,"y":672.0,},
         {"$GMRInstance":"v1","%Name":"inst_6BD36EC6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6BD36EC6","objectId":{"name":"obj_meta","path":"objects/obj_meta/obj_meta.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":4832.0,"y":448.0,},
+        {"$GMRInstance":"v1","%Name":"inst_F1E19D2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_F1E19D2","objectId":{"name":"obj_checkpoint","path":"objects/obj_checkpoint/obj_checkpoint.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2400.0,"y":704.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

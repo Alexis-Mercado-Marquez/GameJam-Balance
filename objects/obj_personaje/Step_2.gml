@@ -4,7 +4,7 @@ if _gano == true {
 }
 
 //Movimiento en x
-/*var */_direccion = keyboard_check(vk_right) - keyboard_check(vk_left);
+_direccion = keyboard_check(vk_right) - keyboard_check(vk_left);
 
 if _direccion != 0 {
 	//Si aún no supera la velocidad máxima, la incrementa
