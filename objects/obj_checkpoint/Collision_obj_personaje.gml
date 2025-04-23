@@ -1,6 +1,5 @@
 /// @description Se guarda el avance
-global._checkpoint = true;
-global._inicio_x = x;
-global._inicio_y = y;
-
+if other._colision == true {
+	global._checkpoint = id;
+}
 //La próxima vez que muera reiniciará el nivel aquí

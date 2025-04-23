@@ -7,10 +7,10 @@ function scr_per_chocar(_otro){
 		_sprite = spr_caido;
 
 		if x < _otro.x + 32 {
-			_movim_x = -8;
+			_movim_x = -6;
 		}
 		else {
-			_movim_x = 8;
+			_movim_x = 6;
 		}
 
 		alarm[0] = game_get_speed(gamespeed_fps); //60 frames

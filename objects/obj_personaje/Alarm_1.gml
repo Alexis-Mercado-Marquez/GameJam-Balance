@@ -1,3 +1,3 @@
 /// @description Avanza al próximo nivel
-global._checkpoint = false;
+global._checkpoint = noone;
 room_goto_next();

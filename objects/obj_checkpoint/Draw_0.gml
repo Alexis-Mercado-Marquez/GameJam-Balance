@@ -1,5 +1,5 @@
 /// @description Dibujado condicional
-if global._checkpoint == true {
+if global._checkpoint == id {
 	draw_sprite(spr_bandera_2, 0, x, y);
 }
 else {

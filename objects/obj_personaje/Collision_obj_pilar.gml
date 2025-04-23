@@ -7,7 +7,8 @@ if _colision == true {
 		y = _base_y + 51;
 		_movim_y = 0; 
 	}
-	else if y > other.y {
-		_movim_x *= -1; //Si choca por el lado, rebota
+	else if y > other.y && 
+		((x > other.x && _movim_x < 0) || (x <= other.x && _movim_x > 0)) {
+		_movim_x *= -0.75; //Si choca por el lado, rebota
 	}
 }

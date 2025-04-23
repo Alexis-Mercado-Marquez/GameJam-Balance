@@ -4,7 +4,9 @@ if _gano == true {
 }
 
 //Movimiento en x
-_direccion = keyboard_check(vk_right) - keyboard_check(vk_left);
+var _dir_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
+var _dir_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
+_direccion = _dir_right - _dir_left;
 
 if _direccion != 0 {
 	//Si aún no supera la velocidad máxima, la incrementa
@@ -36,10 +38,10 @@ else {
 	
 	//Desacelera (acerca su movimiento a cero)
 	if _movim_x > 0 {
-		_movim_x -= (_aceleracion * 0.75);
+		_movim_x -= _aceleracion;
 	}
 	else if _movim_x < 0 { 
-		_movim_x += (_aceleracion * 0.75);
+		_movim_x += _aceleracion;
 	}
 }
 

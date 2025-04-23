@@ -9,7 +9,7 @@ if _seguir_a != noone
 	&& _seguir_a.y > 64
 	&& _seguir_a.y < room_height - 64 
 {
-	_hacia_x = _seguir_a.x;
+	_hacia_x = _seguir_a.x + 128;
 	_hacia_y = _seguir_a.y;
 }
 
