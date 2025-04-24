@@ -4,7 +4,8 @@
 function scr_per_chocar(_otro){
 	if _colision == true {
 		_colision = false;
-		_sprite = spr_caido;
+		_sprite = spr_payasi_cae;	
+		image_speed = 0;
 
 		if x < _otro.x + 32 {
 			_movim_x = -6;

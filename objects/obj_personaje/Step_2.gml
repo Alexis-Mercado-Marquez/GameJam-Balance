@@ -48,7 +48,7 @@ else {
 //Si supera cierto ángulo, desactiva la colisión
 if abs(_angulo) >= _angulo_max {
 	_colision = false;
-	_sprite = spr_caido;
+	_sprite = spr_payasi_cae;
 }
 
 //Movimiento en y (caida)
@@ -73,6 +73,8 @@ if place_meeting(x, y, obj_botador) {
 	var _botador = instance_nearest(x, y, obj_botador);
 	event_perform(ev_collision, _botador.object_index)
 }
+
+image_speed = _movim_x / 2;
 
 x += _movim_x;
 y += _movim_y;

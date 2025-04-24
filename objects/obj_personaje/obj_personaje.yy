@@ -47,8 +47,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_personaje",
-    "path":"sprites/spr_personaje/spr_personaje.yy",
+    "name":"spr_payasi",
+    "path":"sprites/spr_payasi/spr_payasi.yy",
   },
   "spriteMaskId":null,
   "visible":true,
