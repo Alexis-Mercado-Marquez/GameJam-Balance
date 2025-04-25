@@ -9,4 +9,9 @@ function scr_con_spawn_en_checkpoint()
 		obj_camara.x = global._checkpoint.x - 64;
 		obj_camara.y = global._checkpoint.y - 64;
 	}
+	
+	//Ajusta el fondo para que se repita
+	var _id_capa = layer_get_id("Background");
+	var _fondo = layer_background_get_id(_id_capa);
+	layer_background_htiled(_fondo, true);
 }

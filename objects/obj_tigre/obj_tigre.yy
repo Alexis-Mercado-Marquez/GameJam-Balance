@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_enemigo",
+  "%Name":"obj_tigre",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_pilar","path":"objects/obj_pilar/obj_pilar.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_enemigo",
+  "name":"obj_tigre",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_enemigo",
-    "path":"sprites/spr_enemigo/spr_enemigo.yy",
+    "name":"spr_tigre",
+    "path":"sprites/spr_tigre/spr_tigre.yy",
   },
   "spriteMaskId":null,
   "visible":true,

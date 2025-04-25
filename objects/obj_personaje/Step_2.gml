@@ -57,8 +57,8 @@ if _movim_y < 10 {
 }
 
 //Colisiones con objetos
-if place_meeting(x, y, obj_enemigo) {
-	var _enemigo = instance_nearest(x, y, obj_enemigo);
+if place_meeting(x, y, obj_tigre) {
+	var _enemigo = instance_nearest(x, y, obj_tigre);
 	event_perform(ev_collision, _enemigo.object_index)
 }
 if place_meeting(x, y, obj_aro) {
