@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_meta",
-  "eventList":[],
+  "%Name":"obj_particulas",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_meta",
+  "name":"obj_particulas",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -27,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_globo",
-    "path":"sprites/spr_globo/spr_globo.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

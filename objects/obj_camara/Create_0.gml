@@ -16,3 +16,5 @@ _buffer_pausa = -1; //Guarda la captura en buffer
 //Propiedades de la fuente
 draw_set_font(fnt_debug);
 draw_set_color(c_white);
+
+instance_create_depth(x, y, -1, obj_particulas);

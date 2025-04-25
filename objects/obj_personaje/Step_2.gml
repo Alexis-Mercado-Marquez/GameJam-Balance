@@ -65,12 +65,12 @@ if place_meeting(x, y, obj_aro) {
 	var _aro = instance_nearest(x, y, obj_aro);
 	event_perform(ev_collision, _aro.object_index)
 }
-if place_meeting(x, y, obj_bomba) {
-	var _bomba = instance_nearest(x, y, obj_bomba);
+if place_meeting(x, y, obj_bola) {
+	var _bomba = instance_nearest(x, y, obj_bola);
 	event_perform(ev_collision, _bomba.object_index)
 }
-if place_meeting(x, y, obj_botador) {
-	var _botador = instance_nearest(x, y, obj_botador);
+if place_meeting(x, y, obj_mono) {
+	var _botador = instance_nearest(x, y, obj_mono);
 	event_perform(ev_collision, _botador.object_index)
 }
 
