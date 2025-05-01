@@ -14,6 +14,10 @@ function scr_per_chocar(_otro){
 			_movim_x = 6;
 		}
 
+		//Reproduce el sonido de golpe y el de caida a la vez
+		audio_play_sound(snd_golpear, 1, false);
+		audio_play_sound(snd_caida, 2, false);
+		
 		alarm[0] = game_get_speed(gamespeed_fps); //60 frames
 	}
 }

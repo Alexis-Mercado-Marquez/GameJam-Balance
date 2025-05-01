@@ -1,5 +1,5 @@
 /// @description Crea otro aro
-if depth == 0 {
+if depth == 100 {
 	instance_create_depth(x, y, -1, obj_aro);
 	depth = 1;
 }

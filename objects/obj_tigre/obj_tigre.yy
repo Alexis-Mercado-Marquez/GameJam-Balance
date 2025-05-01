@@ -11,8 +11,8 @@
   "name":"obj_tigre",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Obstaculos",
+    "path":"folders/Objetos/Obstaculos.yy",
   },
   "parentObjectId":null,
   "persistent":false,

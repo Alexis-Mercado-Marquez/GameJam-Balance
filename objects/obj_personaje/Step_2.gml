@@ -46,9 +46,12 @@ else {
 }
 
 //Si supera cierto ángulo, desactiva la colisión
-if abs(_angulo) >= _angulo_max {
-	_colision = false;
-	_sprite = spr_payasi_cae;
+if _colision == true {
+	if abs(_angulo) >= _angulo_max || y >= 896 {
+		_colision = false;
+		_sprite = spr_payasi_cae;
+		audio_play_sound(snd_caida, 2, false);
+	}
 }
 
 //Movimiento en y (caida)
