@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":23.448917,
+  "duration":18.782042,
   "name":"msc_circus",
   "parent":{
     "name":"Sonidos",
@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"msc_circus.mp3",
   "type":0,
-  "volume":0.5,
+  "volume":1.0,
 }

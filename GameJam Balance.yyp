@@ -1,5 +1,5 @@
 {
-  "$GMProject":"v1",
+  "$GMProject":"",
   "%Name":"GameJam Balance",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
@@ -19,7 +19,6 @@
     {"$GMFolder":"","%Name":"Sonidos","folderPath":"folders/Sonidos.yy","name":"Sonidos","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"caida.flac","CopyToMask":-1,"filePath":"datafiles","name":"caida.flac","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"golpear.wav","CopyToMask":-1,"filePath":"datafiles","name":"golpear.wav","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
